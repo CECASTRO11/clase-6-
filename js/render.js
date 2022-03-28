@@ -13,6 +13,6 @@ export default class Element {
         return `<p><audio controls><source src="${this.text}" type="audio/ogg"></source></audio></p>`;
     }
     video() { 
-    return `<p><video controls><source src= "${this.text}" type="video/mp4"></source></video></p>`;
+        return `<p><video controls><source src= "${this.text}" type="video/mp4"></source></video></p>`;
     }
 }
